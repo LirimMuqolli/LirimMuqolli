@@ -1,0 +1,21 @@
+/* components/BookingList.module.css */
+.bookingGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust spacing between cards */
+    justify-content: center; /* Center the cards */
+  }
+  
+  .bookingCard {
+    border: 1px solid #ccc; /* Simple border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Padding inside the card */
+    text-align: center; /* Center text */
+    width: 200px; /* Fixed width for columns */
+    transition: box-shadow 0.2s ease; /* Add hover effect */
+  }
+  
+  .bookingCard:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+  }
+  
